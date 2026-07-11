@@ -1,0 +1,6 @@
+1.virula environment
+2. provide isoleted environment
+    python -m venv venv
+ to activate the venv 
+    .\venv\Scripts\Activate.ps1
+4.pip install requiremnts.txt
