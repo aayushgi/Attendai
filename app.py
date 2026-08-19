@@ -1,25 +1,16 @@
 import streamlit as st
+from src.screens.student_screen import student_screen
+from src.screens.teacher_screen import teacher_screen
+from src.screens.home_screen import home_screen
 def main():
-    st.header("Hello, Streamlit!")
-    name=st.text_input("Enter some text:")
-    col1,col2=st.columns(2,gap='small')
-    with col1:
-    
-        if st.button("Submit", type="primary",key='btn1',width='stretch' ):
-            print('hi',name)
-
-    with col2:
-        if st.button('display',type='secondary',key='btn2'):
-            print('bye',name)
-
-    st.markdown("""
-      <style>
-                button{
-                
-                background-color: #4CAF50!important;
-                }
-                </style>
-     
-  """,unsafe_allow_html=True)#by this we can write all the html and css properties
+    if 'login_type' not in st.session_state:
+        st.session_state['login_type'] = None
+    match st.session_state['login_type']:
+        case 'teacher':
+            teacher_screen()
+        case 'student':
+            student_screen()
+        case None:
+            home_screen()
     
 main()
