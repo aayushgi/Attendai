@@ -1,0 +1,56 @@
+here is the some importnat lib. that we are using
+---------------------------------------------------------------------------------------
+1.dlib-bin
+    Dlib ka use kahan hota hai?
+Face Detection 👤
+Image/video me face locate karna.
+Face Recognition
+Kisi face ko identify/compare karna — jaise:
+Face attendance system
+Login using face
+Person identification
+
+Facial Landmark Detection
+Face ke important points detect karna:
+
+Eyes
+Nose
+Mouth
+Jawline
+
+Example: 68 facial landmarks.
+
+Face Alignment
+Face ko straight/standard position me align karna.
+Object Detection
+Dlib me object detection capabilities bhi hain.
+Computer Vision projects
+Dlib ko OpenCV ke saath combine karke projects banaye jaate hain.
+------------------------------------------------------------------------------------------------------------
+setuptolls
+    this will used to dounloading the models to from the github
+
+
+-------------------------------------------------
+
+supabase 
+    for database for free in 1 to 2 gb
+
+bcrypt     
+    used for hashing the data it will provide the encryption to our data 
+    if data will be leaked it could no the leak all the data we would have
+    it will providing the random strings to encrypt the password
+
+
+segno 
+    it will creating the qr code 
+
+pillow
+    it will help to preprocessing the Image in the python
+    when we would have to deal with the images in tne python we are
+    work with the pillow lib.
+    it will providing the methid to flip the image 
+    transform the image
+    resize the image
+    and many more
+    

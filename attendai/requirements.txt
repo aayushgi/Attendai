@@ -1,8 +1,8 @@
-#utilities
-numpy
-pandas
+#utilities lib.that we have to install 
+numpy  # array
+pandas #tabular data 
 #maily used in face reconigition
-scikit-learn
+scikit-learn  # mainly used for classification
 #dlib #also used in face recognitions but we use another
 dlib-bin
 #shape ptrediction
@@ -13,7 +13,7 @@ setuptools<70.0.0
 
 supabase
 
-bcrypt #provide hashing method"for encryption"
+bcrypt #(provide hashing method"for encryption") 
 
 segno
 
