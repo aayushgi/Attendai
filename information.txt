@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 here is the some importnat lib. that we are using
 ---------------------------------------------------------------------------------------
 1.dlib-bin
@@ -54,3 +55,11 @@ pillow
     resize the image
     and many more
     
+=======
+1.virula environment
+2. provide isoleted environment
+    python -m venv venv
+ to activate the venv 
+    .\venv\Scripts\Activate.ps1
+4.pip install requiremnts.txt
+>>>>>>> 709f6ac0a85b8e4eb8523132e69ba572c6db9845
