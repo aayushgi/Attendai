@@ -10,11 +10,15 @@ def home_screen():
     col1, col2 = st.columns(2)
 
     with col1:
+        st.header("I am Teacher")
+        st.image("https://img.magnific.com/premium-vector/vector-logo-illustration-teacher-mascot-cartoon-style_116762-8535.jpg?semt=ais_hybrid&w=740&q=80")
         if st.button("teacher portal"):
             st.session_state["login_type"] = "teacher"
             st.rerun()
 
     with col2:
+        st.header("I am Student")
+        st.image("https://d1csarkz8obe9u.cloudfront.net/posterpreviews/logo-design-template-35b0a3e2315d19a46c046165f315b000.jpg?ts=1592240511")
         if st.button("student portal"):
             st.session_state["login_type"] = "student"
             st.rerun()

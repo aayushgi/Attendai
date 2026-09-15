@@ -8,4 +8,4 @@ def header_home():
             <img src="{logo_url}" style="height:100px;">
             <h1 style="text-align: center; color: white;">AttendAI</h1>
         </div>
-    """, unsafe_allow_html=True)
+    """, unsafe_allow_html=True) 
