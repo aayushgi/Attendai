@@ -9,3 +9,14 @@ def header_home():
             <h1 style="text-align: center; color: white;">AttendAI</h1>
         </div>
     """, unsafe_allow_html=True) 
+    
+
+def header_dashboard():
+    logo_url = "https://home.edweb.net/wp-content/uploads/snapchat.jpg"
+
+    st.markdown(f"""
+        <div style="display: flex;  align-items: center; justify-content: center; gap:10px; ">
+            <img src="{logo_url}" style="height:70px;">
+            <h2 style="text-align: left; color: #5865F2;">AttendAI</h2>
+        </div>
+    """, unsafe_allow_html=True) 
