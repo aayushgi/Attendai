@@ -7,7 +7,7 @@ from src.ui.base_layout import (
 )
 
 from src.components.header import header_dashboard
-
+from src.components.footer import footer_dashboard
 
 def teacher_screen():
 
@@ -26,7 +26,7 @@ def teacher_screen_login():
     with c1:
         header_dashboard()
     with c2:
-        st.button("go back to home",type="secondary",key='loginbackbtn',shortcut="Ctrl+Backspace")
+        st.button("go back to home",type="secondary",key='loginbackbtn',shortcut="Ctrl+Backspace",icon=":material/home:",)
     # Page title
     st.header("login using password",text_alignment="center")
     st.space()
@@ -34,9 +34,15 @@ def teacher_screen_login():
     teccher_username = st.text_input("Enter your username",placeholder="anayarow")
     teacher_password = st.text_input("Enter your password",type="password",placeholder="enter your password")
     st.divider()
+    btnc1,btnc2=st.columns(2)
+    with btnc1:
+        st.button("login",width="stretch",key='loginbtn',shortcut="Ctrl+Enter")
+    
+    with btnc2:
+        st.button("Register",width="stretch",key='registerbtn',type="primary")
+    footer_dashboard()
     
     
-
 
 def techer_screen_register():
     # Display header
