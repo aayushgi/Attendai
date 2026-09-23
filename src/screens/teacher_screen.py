@@ -56,3 +56,4 @@ def techer_screen_register():
         
         
     # Add more functionality for the teacher screen here
+    
