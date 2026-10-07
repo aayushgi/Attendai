@@ -22,7 +22,7 @@ def teacher_screen():
 def teacher_screen_login():
 
 # Display header
-    c1,c2=st.columns(2, vertical_alignment="center",gap="xxlarge")
+    c1,c2=st.columns(2,vertical_alignment="center",gap="xxlarge")
     with c1:
         header_dashboard()
     with c2:
@@ -57,3 +57,4 @@ def techer_screen_register():
         
     # Add more functionality for the teacher screen here
     
+#today is the last day of posting nothing more will be posted after this date
