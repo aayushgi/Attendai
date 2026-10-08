@@ -31,7 +31,7 @@ def teacher_screen_login():
     st.header("login using password",text_alignment="center")
     st.space()
     st.space()
-    teccher_username = st.text_input("Enter your username",placeholder="anayarow")
+    teacher_username = st.text_input("Enter your username",placeholder="anayarow")
     teacher_password = st.text_input("Enter your password",type="password",placeholder="enter your password")
     st.divider()
     btnc1,btnc2=st.columns(2)
@@ -57,4 +57,3 @@ def techer_screen_register():
         
     # Add more functionality for the teacher screen here
     
-#today is the last day of posting nothing more will be posted after this date
